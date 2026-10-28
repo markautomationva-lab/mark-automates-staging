@@ -1,0 +1,60 @@
+name: Approved staging deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      approved_sha:
+        description: 'Full 40-character main-branch commit SHA reviewed and approved for staging'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mark-automates-staging-pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: github.repository == 'markautomationva-lab/mark-automates-staging' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the selected commit
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Verify the exact approved staging package
+        env:
+          APPROVED_SHA: ${{ inputs.approved_sha }}
+        run: node scripts/validate-package.cjs
+      - name: Upload only the static website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+          retention-days: 1
+
+  deploy:
+    if: github.repository == 'markautomationva-lab/mark-automates-staging' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure staging Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy the validated artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report the staging address
+        env:
+          STAGING_URL: ${{ steps.deployment.outputs.page_url }}
+        run: printf 'Staging deployed to %s\n' "$STAGING_URL" >> "$GITHUB_STEP_SUMMARY"

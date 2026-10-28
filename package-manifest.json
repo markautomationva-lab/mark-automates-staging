@@ -1,0 +1,577 @@
+{
+  "repository": "markautomationva-lab/mark-automates-staging",
+  "base": "/mark-automates-staging/",
+  "mode": "staging",
+  "files": [
+    {
+      "file": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "about.html",
+      "bytes": 294,
+      "sha256": "4792bb424ff90f3b1f1d0a9297901061d94500c68e5d19aa1ccd875303f99667"
+    },
+    {
+      "file": "architecture-explorer.css",
+      "bytes": 7001,
+      "sha256": "f35506fdc32a5d763ebe55360f53bdc03dfea428262c6df3f16145c9d590ec76"
+    },
+    {
+      "file": "architecture-explorer.js",
+      "bytes": 17693,
+      "sha256": "ca129e1af21715b70ff065cd9e48cfa2410efc5a3d683c88724dc5da196c5a7d"
+    },
+    {
+      "file": "architecture-metadata.js",
+      "bytes": 5735,
+      "sha256": "3294b6087600eb3b29299409881642a2060a6a47990fb4543c3a32fa990f85ed"
+    },
+    {
+      "file": "assets/projects/grace/captions-current.vtt",
+      "bytes": 1616,
+      "sha256": "41102fbbc358544e397cd209bca70e8c30250b6241efccecb842bfb6d536f738"
+    },
+    {
+      "file": "assets/projects/grace/film-v6.mp4",
+      "bytes": 27367656,
+      "sha256": "7f537fb2f970eab40ce90c85fc65f1e707963cf5dbe2c130e4517a7097a4b0cb"
+    },
+    {
+      "file": "assets/projects/grace/screenshots/ghl-contact-lossless.webp",
+      "bytes": 226796,
+      "sha256": "fbdc1d6bf9d81c97084872736851ab9a13999afadcd7597244ff9f2db436ac7f"
+    },
+    {
+      "file": "assets/projects/grace/screenshots/ghl-survey-booking-lossless.webp",
+      "bytes": 202894,
+      "sha256": "7b82ab1e41cee4ad380b7aab5c9a880f86ff0f70eefe993b7e747941961dccf5"
+    },
+    {
+      "file": "assets/projects/grace/screenshots/main-workflow-lossless.webp",
+      "bytes": 307702,
+      "sha256": "8db79f16cb0ef7e163572ee56a0c3183bea7ce1429bfa7178ea7dbd85d70e48c"
+    },
+    {
+      "file": "assets/projects/grace/screenshots/retell-instructions-lossless.webp",
+      "bytes": 394128,
+      "sha256": "5fcc1d46889117449b75f405959eb1a435e1e7e3a4cfbba6df44882bbd60fd58"
+    },
+    {
+      "file": "assets/projects/grace/screenshots/workflow-execution-lossless.webp",
+      "bytes": 508390,
+      "sha256": "960a137c4cbf8ea47f9fa6e5419a73f02fa6828d8149ee590e96e1277a118379"
+    },
+    {
+      "file": "assets/projects/hayes/captions-current.vtt",
+      "bytes": 1886,
+      "sha256": "57053a6024c89159c0ada843cd6cbf90456ef3ba8d4a8c689d821276ee4b3b2d"
+    },
+    {
+      "file": "assets/projects/hayes/execution/knowledge-ingestion-supplied-lossless.webp",
+      "bytes": 62982,
+      "sha256": "b7124cff7774e0a8b343b57ab395761ec6ca16bdbecd8943b1d5c3bd91e6c28a"
+    },
+    {
+      "file": "assets/projects/hayes/execution/n8n-rag-success.png",
+      "bytes": 158790,
+      "sha256": "b2c600d70253a1064dbfa5bb5838759d855bc02ced26b2b297e964106873f159"
+    },
+    {
+      "file": "assets/projects/hayes/execution/n8n-viewing-confirmation-16225.png",
+      "bytes": 152810,
+      "sha256": "e03490b2b327439e4c22c581920f2d374c9c135475e909c4527cfa6e06509038"
+    },
+    {
+      "file": "assets/projects/hayes/film-v4.mp4",
+      "bytes": 34696933,
+      "sha256": "ed42874afd66cf66d5e054296d450d52f20c11bcf1e055d1258b6292c7381afb"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/chatbot-screenshot.jpg",
+      "bytes": 130366,
+      "sha256": "e361996529450a0c9bb5bbda39b7882fb988e374ce43606bbe0b888dc0590713"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/confirm-viewing-lossless.webp",
+      "bytes": 103552,
+      "sha256": "334b859cd140d2c797208481dc512a0fc33c1554cf2a80e8630f72d5193809f7"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/knowledge-ingestion-lossless.webp",
+      "bytes": 70210,
+      "sha256": "15ed55718de64342afad835a0cd8bc72635288d239185b40c689f40e8e6f8a52"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/rag-chat-workflow-lossless.webp",
+      "bytes": 150772,
+      "sha256": "b82ea1ebf93ae01d0cb9196d8428d92d968f5f86b85d52396de6a5524654f68e"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/website-chatbot-wide.jpg",
+      "bytes": 132206,
+      "sha256": "6a64433023c6581fcb5fabc6e1bbfa68050f2f57ffd4e62bf942889275dd3ace"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/website-homepage-wide.jpg",
+      "bytes": 121100,
+      "sha256": "135e8f99cf7e26adbd1f92433aec75fb9bc69640418b314b15133e881590154c"
+    },
+    {
+      "file": "assets/projects/hayes/screenshots/website-screenshot.jpg",
+      "bytes": 327613,
+      "sha256": "cca285223a2f33c388a876394dc5f0e71de42954dd4adc4834d6381111b38bd1"
+    },
+    {
+      "file": "assets/projects/hayes/workflows/n8n-workflow-18.png",
+      "bytes": 71543,
+      "sha256": "afea9faa851e77a1edf6a2a9f65e45fddbaeb1e50ca428d125b756d5d28c8947"
+    },
+    {
+      "file": "assets/projects/hayes/workflows/n8n-workflow-4-lossless.webp",
+      "bytes": 199196,
+      "sha256": "270b150c131c2d9e22de5b65b8aad8638b0f3ea8a637357cbbca8afb89ab5b96"
+    },
+    {
+      "file": "assets/projects/hayes/workflows/viewing-confirmation-presentation-lossless.webp",
+      "bytes": 959498,
+      "sha256": "ce07d5eb4dd8d1ff33bdbec32edccffe50d2c35da8c38d25db81429c7bd8cc92"
+    },
+    {
+      "file": "assets/projects/hayes/workflows/viewing-draft-supplied.png",
+      "bytes": 109978,
+      "sha256": "9028c766df3f54ec25039e7c6a4f965ae969b5217a402780d5d7f59a0b76bb19"
+    },
+    {
+      "file": "assets/projects/hvc/captions-current.vtt",
+      "bytes": 1681,
+      "sha256": "8a3286ecb988433322450baa33fc5ab15749feb3fcfa93f746e6f077c3ce7bf8"
+    },
+    {
+      "file": "assets/projects/hvc/film-v2.mp4",
+      "bytes": 27481832,
+      "sha256": "4d9dc2ce4b26aa261f8fcb2e742926b5d7f86a39949eb4405eaefcade1b8f71c"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-assistant-complete-workflow-lossless.webp",
+      "bytes": 178176,
+      "sha256": "6f43acf3cf5f985550080613619fcca7afa8ba387b539982877ea29fd00c4373"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-assistant-execution-view-lossless.webp",
+      "bytes": 215126,
+      "sha256": "7d6d2af3d7941eb87c8f7ac6daae7abe78e27d18eb126c22cc58186a9cffe57c"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-calendar-week-19-october-2026-lossless.webp",
+      "bytes": 81284,
+      "sha256": "1a30ce0fe72ae413bf58a7e662abdae5e0ffec5ef697768e1f87e85c0c2e9be7"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-french-email-draft.png",
+      "bytes": 77116,
+      "sha256": "ca0e664cd8ad92132227abf5048b61cf675132e1a5906dec4a0143cf6fcb02b7"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-morning-brief-scheduled-workflow-lossless.webp",
+      "bytes": 147872,
+      "sha256": "88a181b2d73bcb0d875cc0f49406161ec0c1b44892e2a2ff6fbef338badc6503"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-morning-brief-workflow-lossless.webp",
+      "bytes": 167660,
+      "sha256": "a69be6efa3fd016807963ef85a29dc6703946752240031c9d88c387fe6bae108"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-reschedule-confirmation-lossless.webp",
+      "bytes": 42548,
+      "sha256": "5b08a4970e085ef2d1d23e431a42ad2bcdfe9db69310e3f13077808341165fe1"
+    },
+    {
+      "file": "assets/projects/hvc/screenshots/hvc-slack-cancellation-approvals.png",
+      "bytes": 77714,
+      "sha256": "f3334dcc63c64a170f4c7dcb59ce46876090a1f142c4ddad722e3de3d9004cef"
+    },
+    {
+      "file": "assets/projects/hvc/workflows/n8n-workflow-7-lossless.webp",
+      "bytes": 217188,
+      "sha256": "9c0bc6cbd51d5c32989bb84185d96d1b0cb81413d8fff9f97e8bd1e3363f8e1e"
+    },
+    {
+      "file": "assets/projects/hvc/workflows/n8n-workflow-8-lossless.webp",
+      "bytes": 113798,
+      "sha256": "8be9136bbb6c2624fd08ff565e852852100a9c5eceedc4e240f3c4a44c554e3a"
+    },
+    {
+      "file": "assets/projects/northstar/captions-current.vtt",
+      "bytes": 2405,
+      "sha256": "065cb0c735cacc26d8b501148f626613122003c95fec32abeab0e3573d147e69"
+    },
+    {
+      "file": "assets/projects/northstar/execution/n8n-arrival-16395.png",
+      "bytes": 176580,
+      "sha256": "e4d22c663acf273995091910ae516e61df83ac33fea2c34ee1d4fec97e12eeb7"
+    },
+    {
+      "file": "assets/projects/northstar/execution/n8n-journey-events-16322.png",
+      "bytes": 155989,
+      "sha256": "05ecdb1e320b7b493294e752f0d574d540400fa5b05fb49164a0d2a44c427ca8"
+    },
+    {
+      "file": "assets/projects/northstar/film-v5.mp4",
+      "bytes": 50691560,
+      "sha256": "79524aa853972f05c81af90ba3105243400f116b92bb475ae98a9a2d2dcd7701"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/Dispatch-Web-App-lossless.webp",
+      "bytes": 523370,
+      "sha256": "ea2d803048a33484292f365626a8d865b8bb45079ff2a857e5923057b492d53e"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/Driver-App-lossless.webp",
+      "bytes": 300150,
+      "sha256": "0c758deb6e9db15ccf6616b08a93b242f590273be9b3fa668b8b48ad53574f06"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/Fleet-Rota-lossless.webp",
+      "bytes": 45958,
+      "sha256": "3cce6127e59947d9b19f3f214ebce51dc3df788171078a3ddb1a39cafac0347b"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/Incidents-lossless.webp",
+      "bytes": 48394,
+      "sha256": "fc2df9f2eaee23093daad295a86f9c6bef1588ee228a68c7282cc382b57e9672"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/Reports-and-Costs-lossless.webp",
+      "bytes": 111290,
+      "sha256": "3bae9ed2a33be73f64148a930070c0d6f2bb735e2d35eb43125b632c4894f98d"
+    },
+    {
+      "file": "assets/projects/northstar/screenshots/n8n-Arrival-Reporting-lossless.webp",
+      "bytes": 348876,
+      "sha256": "b5da1aaf9617208cb23d7a2effdecbfe48d3b4753b83b236a132c36e89d36cc2"
+    },
+    {
+      "file": "assets/projects/northstar/workflows/n8n-journey-events-lossless.webp",
+      "bytes": 68024,
+      "sha256": "d1b9737602e579992b4d699a332c7813cd0c9914aba7d4f81055a5ca455febdf"
+    },
+    {
+      "file": "assets/projects/northstar/workflows/n8n-workflow-1-lossless.webp",
+      "bytes": 241274,
+      "sha256": "ecc3245eb8ebf751c289791f0a677cdcde39fc061e8ccefdc22e6642ae57cd12"
+    },
+    {
+      "file": "assets/projects/northstar/workflows/n8n-workflow-16.png",
+      "bytes": 88807,
+      "sha256": "d347023c451400f94630f52d137b7a0729ac96cadb10ab4fdcd74464d6405491"
+    },
+    {
+      "file": "assets/projects/roofline/captions-current.vtt",
+      "bytes": 1788,
+      "sha256": "65575241f225663f608a711a6a8c6547ca9533af11b683b486bee0e747c417b2"
+    },
+    {
+      "file": "assets/projects/roofline/film-v4.mp4",
+      "bytes": 9884941,
+      "sha256": "062d5beef9d0633b5a56fd50ccf29829cb2bd6339ae2c83f5f757da386bbd111"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/booking-lossless.webp",
+      "bytes": 206636,
+      "sha256": "f723617e590ad711bd321459b1e7c32c3ccf7ced2f9ef42f7863da65aefd2be2"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/email-acknowledgement-example.svg",
+      "bytes": 2496,
+      "sha256": "9c64d98e8b2bbb4be927a00b91484b46a4b0c5432af9880405181424b4da117b"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/enquiry-form-lossless.webp",
+      "bytes": 39522,
+      "sha256": "38377a25a50119d6de6daa35593b1b460655a01c24c89b7038994cecf8cadc48"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/lead-processing-lossless.webp",
+      "bytes": 113322,
+      "sha256": "14f335a756825f11041ca9018b91a0d81480cad91074d205d240e6358787d94b"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/operations-dashboard.png",
+      "bytes": 62422,
+      "sha256": "b2875010660479f623ca312044c7fbd279c1057ed2aa979c7a77c76d61e34490"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/sms-follow-up-example.svg",
+      "bytes": 2473,
+      "sha256": "3db463d6c78e6f21dd874eee4eb62732bd86adc33e630464b9347b653c0d5fe2"
+    },
+    {
+      "file": "assets/projects/roofline/screenshots/sms-follow-up-lossless.webp",
+      "bytes": 312268,
+      "sha256": "608f4108a4c3162321a7fda7f84596aab9f0f7dea22c1fed4af47eb656fd6701"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/availability-supplied.png",
+      "bytes": 82808,
+      "sha256": "4dbae14d1db8581e50c826a9a1ac12371723c1cfee4a3f62422fb8cd7a4f0576"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/booking-supplied.png",
+      "bytes": 124775,
+      "sha256": "860f2f30b38c54b4520b3c3c7366f071de261f4dacffcea274a7294715d6efd9"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/n8n-calendar-test.png",
+      "bytes": 90450,
+      "sha256": "7ff8d40b25eb522efd6e93bbdbdb5e93792e240ff1b7f2698cceb9f3c98cc940"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/sms-follow-up-supplied.png",
+      "bytes": 128274,
+      "sha256": "671fa83d4702dd104e66a11d98fb3eab8005273fa42502d7f053ce381151ffb0"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/sms-tracking-supplied.png",
+      "bytes": 146945,
+      "sha256": "3e0cd71a14859cc99c8991ca0fda33d37b60f9681a9c3ca5b6b5d969ec03aba0"
+    },
+    {
+      "file": "assets/projects/roofline/workflows/speed-to-lead-supplied-lossless.webp",
+      "bytes": 79748,
+      "sha256": "3acd09be2e81b83f6cde19858fefe2b011f427ca08e9c60bfff254451b3fb9ae"
+    },
+    {
+      "file": "assets/projects/solara/captions-current.vtt",
+      "bytes": 1228,
+      "sha256": "ff6fe70ca706a36d23bdf1cc0db0512d8efc97de4323974c168beb9e164050bb"
+    },
+    {
+      "file": "assets/projects/solara/film-v6.mp4",
+      "bytes": 16319236,
+      "sha256": "2dc1f4ec408b561eaeadc316bc99fb66b13835b9e91640355318b5d6265f1649"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/airtable.png",
+      "bytes": 146642,
+      "sha256": "7132305bc09f2059ec8404d5ac8cbe5670723a3a1a8d8d4dbf3a179c934c928a"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/call-results-lossless.webp",
+      "bytes": 46338,
+      "sha256": "6f3c749458d99f917a36f879103f4ca484d903b5eb41ca4f1604b042589eb9ea"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/call-results-tested-lossless.webp",
+      "bytes": 54064,
+      "sha256": "cfa47b1ad0527972378c3ef1c526064d6facbcad0c7bf9feb14bc1fcdc3f049f"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/enquiry-form-lossless.webp",
+      "bytes": 64932,
+      "sha256": "d3214b4b20a6456624e41cc1ec4724f6de2626fcdba9f34101849df846af216b"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/lead-capture-lossless.webp",
+      "bytes": 57378,
+      "sha256": "c37f55294fffa13cfbbc19462bdcc985c0147cdc7c270eb203e56500fe328632"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/outbound-call-illustration.svg",
+      "bytes": 4312,
+      "sha256": "5adbe41cda3b4f8761b9c6b6706d9fb2a6e86e41ad185a44da0d80ed695128ce"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/sophie-instructions-lossless.webp",
+      "bytes": 692086,
+      "sha256": "f6ab094c5d3cfcfa7ec017ddb43efdd1dcfa0ff04f8b33245e864d0fbba58b15"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/website-lossless.webp",
+      "bytes": 1013106,
+      "sha256": "271886b62c2112eb0045def2d9708c0f8c5b386b2963ea5bda78d9e0e0653263"
+    },
+    {
+      "file": "assets/projects/solara/screenshots/website-preview.html",
+      "bytes": 28307,
+      "sha256": "dde559b5077bcd9a05a7bc97e4215639e94566c7218445c371adf33ee0ccce68"
+    },
+    {
+      "file": "assets/projects/solara/workflows/n8n-workflow-2-lossless.webp",
+      "bytes": 112716,
+      "sha256": "f41e777bfce173b4ecd30d140259d6462d8e90a7a7b7b208fffe4a778a203081"
+    },
+    {
+      "file": "assets/projects/solara/workflows/n8n-workflow-3.png",
+      "bytes": 117461,
+      "sha256": "6c26049798dc87122f6f388adf98a29fed8ac8b402c6b031ff41b32520b3aa14"
+    },
+    {
+      "file": "assets/site/favicon.svg",
+      "bytes": 205,
+      "sha256": "cfc4570646d407682fff610e6e88f79b679becc2e63728a9a9067cc69615c4ed"
+    },
+    {
+      "file": "assets/site/grace-cover.webp",
+      "bytes": 77528,
+      "sha256": "315a30736291110a56c1a983d9d69052c9dcfd15a064a691c788edc71c0c204e"
+    },
+    {
+      "file": "assets/site/hayes-cover.webp",
+      "bytes": 83410,
+      "sha256": "09d2e8d4029e3fdf539ef50e75ee23ec49c9be51a706d8e02a4515f397fdc5c5"
+    },
+    {
+      "file": "assets/site/hvc-cover.webp",
+      "bytes": 72138,
+      "sha256": "da14c4b9de897ddfb1dd75d663afd334f086d4586716b1a3629489c6d3210989"
+    },
+    {
+      "file": "assets/site/mark-andrada-cutout-lossless.webp",
+      "bytes": 882242,
+      "sha256": "37f59820db73f0332ea5c9a7e1ff9c96e288cda92525a90db05dc95b858b271a"
+    },
+    {
+      "file": "assets/site/northstar-cover-v2-lossless.webp",
+      "bytes": 1453162,
+      "sha256": "cc74fed9941454f776ea38cee54899ef4b879f4c6e281d5708d542bd260f7f1d"
+    },
+    {
+      "file": "assets/site/roofline-cover.webp",
+      "bytes": 81124,
+      "sha256": "8ef4ffec2dbea2b80d4483c0cad30b1ab29f27d5933424b0b7adab95cd6aa131"
+    },
+    {
+      "file": "assets/site/solara-cover.webp",
+      "bytes": 84644,
+      "sha256": "cc036e7a54c4d0a3e809cf1167ab179e67a8c5cf55852ca18e160bb6aec0e2ab"
+    },
+    {
+      "file": "behind-build.css",
+      "bytes": 8157,
+      "sha256": "1b020b4975f571f1e21ccc0ceb29ed57029fe8dd953ba69d49eb995b728d6a32"
+    },
+    {
+      "file": "behind-build.js",
+      "bytes": 13040,
+      "sha256": "bcb9355eae06d4e608cde4cc1b5346f39f9e9a3688056623786e204f07a6e536"
+    },
+    {
+      "file": "design-canvas.html",
+      "bytes": 292,
+      "sha256": "3055b429021c0c5a31b0500dc9a271785137c2caf35ce4f03c7a2aa615166226"
+    },
+    {
+      "file": "gallery-video.js",
+      "bytes": 4585,
+      "sha256": "0e5e8ac9d95c4e9eeaa92d18a318508b06bc8b2371a424af750d767671997bfa"
+    },
+    {
+      "file": "how-it-works.css",
+      "bytes": 18231,
+      "sha256": "e1ed2488da426ea2c8fce7e867c411f2d65cab7bea26aba054506da232a65abd"
+    },
+    {
+      "file": "how-it-works.js",
+      "bytes": 3444,
+      "sha256": "7c412444d5956dd5ae1d131af4675e5beca966776f7cae3e07f42e641f8eaa10"
+    },
+    {
+      "file": "how-it-works/index.html",
+      "bytes": 26164,
+      "sha256": "12934f230b171c1c058c85ac9ff3e5c906fbe5b013d28df5ccf01e79dc6fe855"
+    },
+    {
+      "file": "index.html",
+      "bytes": 58562,
+      "sha256": "de625406f1fffdf201faa260c3eaf7a2c8030b2133a065ce9b10a6a224dc9cd6"
+    },
+    {
+      "file": "legacy-route.js",
+      "bytes": 279,
+      "sha256": "b1c37646d37f4f61eafeadc21401c1bd7841dbd5b903c0a644c7386528ffe6d0"
+    },
+    {
+      "file": "project-engineering.js",
+      "bytes": 46860,
+      "sha256": "72d4da1c4d272ad705c966a8e8045e0fe6ef30e2d844e27025b937d8da4d5f02"
+    },
+    {
+      "file": "project-focus.js",
+      "bytes": 14080,
+      "sha256": "e610289ddae14a8a80072cbced9c5fc8f76356655917d43eb47f1c1e0bc4f5c4"
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "file": "services-explorer.css",
+      "bytes": 19670,
+      "sha256": "89af4700e5cd9488b2adcaa8fd0bfeda9d06eaf6dea0431b2351ef24b73c0b1f"
+    },
+    {
+      "file": "services-explorer.js",
+      "bytes": 9088,
+      "sha256": "09d2628c68eda4c4ae07a98b5500b360c7f87f41a4b010efcc20d5c025656b5b"
+    },
+    {
+      "file": "services.html",
+      "bytes": 300,
+      "sha256": "8d7e97b1f9fb695dce988e3e92beb1dafde44eab02cc34f3ff7f4c60cf44939d"
+    },
+    {
+      "file": "site.css",
+      "bytes": 61409,
+      "sha256": "7cfa65509301524ecbefee589cd32096cdae456193b3f3738e86cd6f2d5b4f42"
+    },
+    {
+      "file": "site.js",
+      "bytes": 8820,
+      "sha256": "04086460bccc78bee76d53146be8e08bc54c64b286aeae075f8d92fad91daa03"
+    },
+    {
+      "file": "vendor/CustomEase.min.js",
+      "bytes": 7154,
+      "sha256": "d19a2e3a54218ea54f46f8e14eae04a838ae4b4f6069c21fd759be160721ed3d"
+    },
+    {
+      "file": "vendor/gsap.min.js",
+      "bytes": 72938,
+      "sha256": "dd7dc87e023b3480f9707296342565ca2e361c8393cabb30f9557e06eb1bed4d"
+    },
+    {
+      "file": "vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "work-gallery.css",
+      "bytes": 17476,
+      "sha256": "a765db1c83131d9ecea5aa7445b625dfc2da5e42c551570437f75075f64cf9cc"
+    },
+    {
+      "file": "work-gallery.js",
+      "bytes": 42314,
+      "sha256": "b9c30048f434e4f09577748e58537b2e9f692f0b3ad5951281aac06613814bf8"
+    },
+    {
+      "file": "work.html",
+      "bytes": 292,
+      "sha256": "31404e192e48ed1ad9e4a6a043efba066ad11c856518ea96dfd7866ea01d796a"
+    },
+    {
+      "file": "workflow-explorer.js",
+      "bytes": 8911,
+      "sha256": "a3d46ae5ea0e8ba8cde88535126fac88cb5d2441e5fc8a5bc370ead3ed755ccb"
+    }
+  ]
+}
